@@ -9,4 +9,3 @@ class user(Base):
   id = Column(Integer, primary_key=True)
   Email = Column(String)
   Password = Column(String)
-  j

@@ -18,13 +18,13 @@ def add_user(Email, Password):
 
 
 
-def add_product(name, price, picture, description):
-	product_object = Product(
-		name = name
-		price = price 
-		picture = picture
-		description = description)
-	product.add(product_object)
-	session.commit()
+# def add_product(name, price, picture, description):
+# 	product_object = Product(
+# 		name = name,
+# 		price = price, 
+# 		picture = picture,
+# 		description = description)
+# 	product.add(product_object)
+# 	session.commit()
 
-add_product()
+# add_product()
